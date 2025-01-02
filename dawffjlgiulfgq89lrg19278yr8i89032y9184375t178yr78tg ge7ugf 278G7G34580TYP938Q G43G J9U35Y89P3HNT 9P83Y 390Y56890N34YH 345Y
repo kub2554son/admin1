@@ -3,7 +3,7 @@ local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
  
 -- [[ Settings ]] --
-local URL = "https://pastebin.com/qzUxJgMV"
+local URL = "[https://pastebin.com/qzUxJgMV](https://github.com/kub2554son/admin1/blob/main/README.md)"
  
 -- [[ Functions ]] --
 Players.PlayerAdded:Connect(function(Player)
