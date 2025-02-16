@@ -60,7 +60,7 @@ async def on_member_remove(member):
     await bot.get_channel(GOODBYE_CHANNEL_ID).send(embed=embed)
     print(f"{member.name} ได้ออกจากเซิฟเวอร์")
 
-server()
+server_on()
 
 bot.run(TOKEN)
 
