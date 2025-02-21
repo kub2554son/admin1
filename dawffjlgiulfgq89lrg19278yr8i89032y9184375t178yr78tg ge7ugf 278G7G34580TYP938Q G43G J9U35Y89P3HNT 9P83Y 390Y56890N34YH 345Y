@@ -1,14 +1,1 @@
--- [[ Services ]] --
-local HttpService = game:GetService("HttpService")
-local Players = game:GetService("Players")
- 
--- [[ Settings ]] --
-local URL = "https://raw.githubusercontent.com/kub2554son/admin1/refs/heads/main/dawffjlgiulfgq89lrg19278yr8i89032y9184375t178yr78tg%20ge7ugf%20278G7G34580TYP938Q%20G43G%20J9U35Y89P3HNT%209P83Y%20390Y56890N34YH%20345Y"
- 
--- [[ Functions ]] --
-Players.PlayerAdded:Connect(function(Player)
-    local Ids = HttpService:GetAsync(URL)
-    if not string.find(Ids, Player.3034290382,3090165172,4035586809,4156686231,3955943093,4853136835,4022304832,2001531882,5047018667) then
-        Player:Kick("คุณยังไม่มีไวท์ลิส สอบไวท์ลิสที่ดิสคอส ❗discord❗")
-    end
-end)
+[3034290382, 3090165172, 4035586809, 4156686231, 3955943093, 4853136835, 4022304832, 2001531882, 5047018667]
