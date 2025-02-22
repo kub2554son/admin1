@@ -8,7 +8,7 @@ local URL = "https://raw.githubusercontent.com/kub2554son/admin1/refs/heads/main
 -- [[ Functions ]] --
 Players.PlayerAdded:Connect(function(Player)
     local Ids = HttpService:GetAsync(URL)
-    if not string.find(Ids, Player.3090165172,4035586809,4156686231,3955943093,4853136835,4022304832,2001531882,5047018667) then
+    if not string.find(Ids, Player.3034290382,3090165172,4035586809,4156686231,3955943093,4853136835,4022304832,2001531882,5047018667) then
         Player:Kick("คุณยังไม่มีไวท์ลิส สอบไวท์ลิสที่ดิสคอส ❗discord❗")
     end
 end)
